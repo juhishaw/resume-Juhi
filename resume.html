@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+	<head>
+		<title>My Resume</title>
+		<!--Bootstrap Online-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<!--css-->
+		<link href = "resume.css" rel = "stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!-- script-->
+		<script src = "resume.js"></script>
+		
+	</head>
+	<body onload="myFunction()" style="margin:0;">
+		<!--loader-->
+		<div id="loader"></div>
+		<div style="display:none;" id="myDiv" class="animate-bottom">
+			<div id="mySidenav" class="sidenav">
+			  <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+			  <a href="#aboutMe">About Me</a>
+			  <a href="#qual">Qualifications</a>
+			  <a href="#work">Work</a>
+			  <a href="#skills">Skills</a>
+			  <a href="#">Acheivments</a>
+			</div>
+			<!-- Header-->
+			<div class="hero-image">
+			<div id="main">
+			  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Explore</span>
+			</div>
+			  <div class="hero-text">
+				<h1 style="font-size:50px">Hi! I am Juhi Shaw</h1>
+				<p style="font-size:25px">I'm a <span style="background-color: black;">software engineerineer</span>, 
+				<span style="background-color: black;">writer</span> and <span style="background-color: black;">web designer</span>. 
+				Let's start <span style="background-color: black;">scrolling</span> and learn more about me.</p>
+				 <hr />
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-google"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+				<a href="#" class="fa fa-instagram"></a><br />
+			
+				<!--Scroll down-->	
+				<a href="#aboutMe">
+				<button type="button" class="btn btn-danger btn-circle btn-lg">
+				  <span class="glyphicon glyphicon-chevron-down"></span>
+				</button>
+				</a>
+			  
+			  </div>
+			</div>
+			<!--aboutMe-->
+			<section id = "aboutMe">
+				<div class = "about">
+					<div class="row">
+							<div class="col-sm-3"><img src = "http://nirvana.vidya.edu.in/img/core/11.jpg">
+							</div>
+							<div class="col-sm-1">
+							</div>
+							<div class="col-sm-7">
+								<div id = "about"><br /><br />
+									<p><h2 class = "career">Career Objective:</h2>
+									<p class = "career1">Seeking a fast pace organization where I can unleash my hidden potential and utilize my technical and managerial skills 
+									to achieve self and organization objectives.</p>
+									<h2 class = "career">Contact Details:</h2>
+									<p><span class = "career1">Juhi Shaw<br />
+											C-176, Pallav Puram Phase-1<br />
+											Meerut,250110<br />
+											+91 8126824767<br />
+											juhishw@gmail.com</span><br /></p></p>
+								</div>
+							</div>
+							<div class="col-sm-1">
+							</div>				
+						</div>
+				</div>
+			</section>
+			
+			<!--Qualifications-->
+			<section id = "qual">
+				<div class="col-sm-6">
+				<h2 class = "edu1">EDUCATION</h2>
+				</div>
+				<div class="col-sm-3">
+				<h3><b>College Life</b><h3>
+				<span class = "edu">Vidya College of Engineering</span>
+				</div>
+				<div class="col-sm-3">
+				<h3><b>School Life</b><h3>
+				<span class = "edu">Gargi Girls' School</span>
+				</div>
+				<div class="col-sm-12">
+					<table class="table">
+						<thead>
+						  <tr>
+							<th>School/University</th>
+							<th>Level</th>
+							<th>Board</th>
+							<th>CGPA/Percentage</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr class="success">
+							<td>Gargi Girls' School</td>
+							<td>10<sup>th</sup></td>
+							<td>CBSE</td>
+							<td>9.2</td>
+						  </tr>      
+						  <tr class="danger">
+							<td>Gargi Girls' School</td>
+							<td>12<sup>th</sup></td>
+							<td>CBSE</td>
+							<td>82%</td>
+						  </tr>
+						  <tr class="info">
+							<td>Vidya Colleg of Engineering</td>
+							<td>B.TECH</td>
+							<td>AKTU</td>
+							<td>75%</td>
+						  </tr>
+						</tbody>
+					</table>
+				</div>
+				
+						<hr class = "line">				
+			</section>
+			<!--Scroll to top-->
+			<button onclick="topFunction()" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-chevron-up"></span></button>
+			
+			<hr>
+			<!--work-->
+			<section id = "work">
+			<div class="col-sm-5"><br /><br /><br /><br /><br /><br />
+				<h2 class = "edu1">WORK</h2>
+			</div>
+			<div class="col-sm-7">
+				<h3><b>Blog Site</b><span style = "font-size: 15px"><a href = "#"> www.vidya/blogSite.edu</a></span><h3>
+				<p><span class = "edu">This is a blog site for the students of Vidya Institution. Here the student has the liberty to write anything about 
+				anything.</span></p>
+			</div>
+				
+			<div class="col-sm-5">
+			</div>
+			<div class="col-sm-7">
+				<h3><b>Fest Club</b><span style = "font-size: 15px"><a href = "#"> www.festclub.com</a></span><h3>
+				<p><span class = "edu">This is a fest club site for the students of different Institution. Here the student has the liberty to upload and
+				download the rules and the names of different events.</span></p>
+			</div>
+			</section>
+			<hr>
+			<!--skills-->
+			<section id = "skills">
+			<div class="col-sm-4"><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+				<h2 class = "edu1">SKILLS</h2>
+			</div>
+			<div class = "col-sm-4">
+				<p style = "font-family: Franklin Gothic Medium, Sans-serif;">HTML</p>
+				<div class="container">
+				  <div class="skills html">90%</div>
+				</div>
+
+				<p style = "font-family: Franklin Gothic Medium, Sans-serif;">CSS</p>
+				<div class="container">
+				  <div class="skills css">80%</div>
+				</div>
+
+				<p style = "font-family: Franklin Gothic Medium, Sans-serif;">JavaScript</p>
+				<div class="container">
+				  <div class="skills js">65%</div>
+				</div>
+		
+				<p style = "font-family: Franklin Gothic Medium, Sans-serif;">Bootstrap</p>
+				<div class="container">
+				  <div class="skills bootstrap">70%</div>
+				</div>
+			</div>
+			<div class = "col-sm-4">
+				<p style = "font-family: Franklin Gothic Medium, Sans-serif;">Wordpress</p>
+				<div class="container">
+				  <div class="skills wordpress">60%</div>
+				</div>
+				
+				<p style = "font-family: Franklin Gothic Medium, Sans-serif;">C Language</p>
+				<div class="container">
+				  <div class="skills c">65%</div>
+				</div>
+				
+				<p style = "font-family: Franklin Gothic Medium, Sans-serif;">JAVA</p>
+				<div class="container">
+				  <div class="skills java">65%</div>
+				</div>
+				
+				<p style = "font-family: Franklin Gothic Medium, Sans-serif;">PHP</p>
+				<div class="container">
+				  <div class="skills php">50%</div>
+				</div>
+			</div>
+			</section>
+			
+			<!--footer
+			<div class = "last">
+			Thank you for visiting.
+			</div>
+			-->
+		</div>
+	</body>
+</html>
