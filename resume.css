@@ -22,7 +22,7 @@
 }
 
 .sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+    color: #ffffff;
 }
 
 .sidenav .closebtn {
@@ -52,7 +52,7 @@ body, html {
 }
 
 .hero-image {
-  background-image: url("https://static.pexels.com/photos/34020/pexels-photo.jpg");
+  background-image: url("https://i0.wp.com/livewallpaperhd.com/wp-content/uploads/2017/05/White-Background-Wallpaper-For-Websites.jpg?ssl=1");
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
@@ -74,16 +74,17 @@ body, html {
   outline: 0;
   display: inline-block;
   padding: 10px 25px;
-  color: white;
+  color: black;
   background-color: #ffffff;
   text-align: center;
   cursor: pointer;
 }
-
+/*
 .hero-text button:hover {
   background-color: #555;
   color: white;
 }
+*/
 .up{
 	font-size: 15px;
 	font-family: bookman;
@@ -96,6 +97,7 @@ body, html {
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
+  ;
 }
 
 .fa:hover {
@@ -104,26 +106,26 @@ body, html {
 
 .fa-facebook {
   background: #1111;
-  color: white;
+  color: black;
 }
 
 .fa-twitter {
   background: #1111;
-  color: white;
+  color: black;
 }
 
 .fa-google {
   background: #1111;
-  color: white;
+  color: black;
 }
 
 .fa-linkedin {
   background: #1111;
-  color: white;
+  color: black;
 }
 .fa-instagram {
   background: #1111;
-  color: white;
+  color: black;
 }
 #about{
 	text-align: center;
@@ -187,15 +189,15 @@ body, html {
   text-align: center;
 }
 .about{
-	background-color: black;
-	color: white;
+	
+	color: black;
 }
 .career1{
 	font-size: 20px;
 	font-family: Georgia;
 	}
 .career{
-	background-color: red;
+	background-color: #fadba2;
 }
 
 /*scroll to top*/
@@ -237,11 +239,11 @@ tbody, thead{
 
 
 /*skills*/
-{box-sizing: border-box}
+
 
 .container {
   width: 100%;
-  background-color: #ddd;
+  background-color: #000000;
 }
 
 .skills {
@@ -251,22 +253,29 @@ tbody, thead{
   color: white;
 }
 
-.html {width: 90%; background-color: #000000; font-family: "Franklin Gothic Medium", Sans-serif; font-size: 25px;}
-.css {width: 80%; background-color: #000000;font-family: "Franklin Gothic Medium", Sans-serif; font-size: 25px;}
-.js {width: 65%; background-color: #000000;font-family: "Franklin Gothic Medium", Sans-serif; font-size: 25px;}
-.bootstrap {width: 70%; background-color: #000000;font-family: "Franklin Gothic Medium", Sans-serif; font-size: 25px;}
-.wordpress {width: 60%; background-color: #000000;font-family: "Franklin Gothic Medium", Sans-serif; font-size: 25px;}
-.c {width: 65%; background-color: #000000;font-family: "Franklin Gothic Medium", Sans-serif; font-size: 25px;}
-.java {width: 65%; background-color: #000000;font-family: "Franklin Gothic Medium", Sans-serif; font-size: 25px;}
-.php {width: 50%; background-color: #000000;font-family: "Franklin Gothic Medium", Sans-serif; font-size: 25px;}
+.html {width: 90%; background-color: #f79838; font-family: "Franklin Gothic Medium", Sans-serif; font-size: 25px;}
+.css {width: 80%; background-color: #a6e22d;font-family: "Franklin Gothic Medium", Sans-serif; font-size: 25px;}
+.js {width: 65%; background-color: #46f2d8;font-family: "Franklin Gothic Medium", Sans-serif; font-size: 25px;}
+.bootstrap {width: 70%; background-color: #d546f1;font-family: "Franklin Gothic Medium", Sans-serif; font-size: 25px;}
+.wordpress {width: 60%; background-color: #ff3a89;font-family: "Franklin Gothic Medium", Sans-serif; font-size: 25px;}
+.c {width: 65%; background-color: #fff322;font-family: "Franklin Gothic Medium", Sans-serif; font-size: 25px;}
+.java {width: 65%; background-color: #21f275;font-family: "Franklin Gothic Medium", Sans-serif; font-size: 25px;}
+.php {width: 50%; background-color: #7a2cf7;font-family: "Franklin Gothic Medium", Sans-serif; font-size: 25px;}
 
-.line {
-	border-top: 1px solid #8c8b8b;
-	border-bottom: 1px solid #fff;
+/* hr styling*/
+hr.style15 {
+	border-top: 4px double #8c8b8b;
+	text-align: center;
 }
-/*
-.last{
-	background-color:black;
-	position: bottom;
+hr.style15:after {
+	content: '\002665';
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: #f0f0f0;
+	color: #8c8b8b;
+	font-size: 18px;
 }
-*/
+
+
